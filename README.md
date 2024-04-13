@@ -20,7 +20,7 @@ $ npm run start:dev
 
 ## Behaviour with the pino-nestjs package (bufferLogs: true)
 
-```json
+```js
 [3:28:44 AM] File change detected. Starting incremental compilation...
 
 [3:28:44 AM] Found 0 errors. Watching for file changes.
@@ -37,7 +37,7 @@ $ npm run start:dev
 
 ## Behaviour with the pino-nestjs package (bufferLogs: false)
 
-```json
+```js
 [3:43:22 AM] File change detected. Starting incremental compilation...
 
 [3:43:22 AM] Found 0 errors. Watching for file changes.
@@ -54,7 +54,7 @@ $ npm run start:dev
 
 # Behavior with default logger in Nestjs
 
-```
+```js
 [Nest] 153438  - 04/14/2024, 3:41:12 AM     LOG [NestFactory] Starting Nest application...
 [Nest] 153438  - 04/14/2024, 3:41:12 AM     LOG [InstanceLoader] AppModule dependencies initialized +15ms
 [Nest] 153438  - 04/14/2024, 3:41:12 AM     LOG [InstanceLoader] LoggerModule dependencies initialized +0ms
